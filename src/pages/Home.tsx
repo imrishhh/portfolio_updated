@@ -7,7 +7,7 @@ import Button from "../components/Button";
 
 function Home() {
   const navItems: Record<string, string> = {
-    Resume: "/resume.pdf"
+    resume: "/resume.pdf"
   };
 
   useEffect(() => {
@@ -39,17 +39,17 @@ function Home() {
               <br />
             </p>
 
-            <p>I enjoy experimenting across:</p>
+            <p>i enjoy experimenting across</p>
             <ul>
-              <li>Web Development</li>
-              <li>Backend systems</li>
-              <li>Artifical Intelligence</li>
-              <li>Cybersecurity</li>
-              <li>DevOps & Linux</li>
+              <li>backend system</li>
+              <li>cybersecurity</li>
+              <li>artificial intelligence</li>
+              <li>devops</li>
+              <li>computer graphics</li>
             </ul>
 
             <p>
-              I thrive on exploring new tools, sharpening my skills and finding better ways to write clean,
+              i thrive on exploring new tools, sharpening my skills and finding better ways to write clean,
               effective code.
             </p>
 
