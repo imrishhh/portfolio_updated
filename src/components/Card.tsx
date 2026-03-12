@@ -5,7 +5,7 @@ type ChildProp = {
   children: ReactNode;
 };
 
-function Card({children}: ChildProp) {
+function Card({ children }: ChildProp) {
   return (
     <div className="card">
       {children}

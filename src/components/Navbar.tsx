@@ -8,12 +8,12 @@ type NavbarProps = {
 
 function Navbar({ children, navItems }: NavbarProps) {
   const [isOpen, setOpen] = useState(false);
-  
+
   return (
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-logo">
-          { children }
+          {children}
         </div>
         <button
           className={`navbar-toggle ${isOpen ? "active" : ""}`}
@@ -38,13 +38,12 @@ function Navbar({ children, navItems }: NavbarProps) {
 function DefaultNav() {
   const navItems: Record<string, string> = {
     Home: "/",
-    Projects: "/projects",
     Resume: "/resume.pdf"
   };
-  
+
   return (
     <Navbar navItems={navItems}>
-      <a href="https://github.com/0xrishabk">0xrishabk</a>
+      <a href="https://github.com/imrishhh">Rishhh (Rishab Karki)</a>
     </Navbar>
   )
 }
